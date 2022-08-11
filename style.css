@@ -1,0 +1,45 @@
+.header
+{
+display:flex;
+flex-direction: column;
+background-color:gray;
+align-content: space-between;
+}
+
+.body h1
+{
+    text-align: center;
+}
+img
+{
+    max-width: 124px;
+    max-height: auto;
+}
+.top
+{
+    display: flex;
+    justify-content: space-between;
+}
+.body
+{
+    display: flex;
+    flex-direction:column; 
+    align-content: space-between;
+    justify-content: center;
+}
+.content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 50px;
+    padding: 20px;
+    background-color: blueviolet;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
